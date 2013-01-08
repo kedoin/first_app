@@ -10,7 +10,7 @@ group :development do
 end
 
 group :production do
-  gem 'mysql2'
+  gem 'mysql2', :path => '/usr/local/lib/ruby/gems/1.9.1/gems'
 end
 
 # Gems used only for assets and not required
